@@ -42,14 +42,14 @@ public class Main {
         byte time2 = 20;
         int bottlesTwentyMinute = bottlesOneMinute * time2;
         System.out.println("За " + time2 + " минут " + "машина произвела бутылок " + bottlesTwentyMinute + " штук");
-        short time3 = 24 * 60;
-        int bottlesDay = bottlesOneMinute * time3;
+        short minutesInDay = 24 * 60;
+        int bottlesDay = bottlesOneMinute * minutesInDay;
         System.out.println("За сутки машина произвела бутылок " + bottlesDay + " штук");
-        short time4 = 24 * 60 * 3;
-        int bottlesThreeDays = bottlesOneMinute * time4;
+        int minutesInThreeDays = minutesInDay * 3;
+        int bottlesThreeDays = bottlesOneMinute * minutesInThreeDays;
         System.out.println("За 3 дня машина произвела бутылок " + bottlesThreeDays + " штук");
-        int time5 = 24 * 60 * 30;
-        int bottlesMonth = bottlesOneMinute * time5;
+        int minutesInMonth = minutesInThreeDays * 10;
+        int bottlesMonth = bottlesOneMinute * minutesInMonth;
         System.out.println("За месяц машина произвела бутылок " + bottlesMonth + " штук");
 
         // Задача 5
