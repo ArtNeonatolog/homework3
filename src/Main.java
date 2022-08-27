@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
+        //Задача 1
+
         int a = 120000;
         System.out.println("Значение переменной a с типом int равно " + a);
         byte b = 120;
@@ -13,18 +15,18 @@ public class Main {
         double f = 2.4567890987;
         System.out.println("Значение переменной f с типом double равно " + f);
 
-
+        // Задача 2
         float one = 27.12f;
         long two = 987678965549L;
         byte three = 2;
         short four = 786;
         boolean five = false;
-        int six = 569;
+        char six = 569;
         short seven = -159;
         int eight = 27897;
         byte nine = 67;
 
-
+        // Задача3
         byte teacherOne = 23;
         byte teacherTwo = 27;
         byte teacherThree = 30;
@@ -33,7 +35,7 @@ public class Main {
         int oneStudent = generalPapers / generalStudents;
         System.out.println("На каждого ученика рассчитано " + oneStudent + " листов бумаги");
 
-
+        // Задача 4
         byte bottles = 16;
         byte time1 = 2;
         int bottlesOneMinute = bottles / time1;
@@ -50,7 +52,7 @@ public class Main {
         int bottlesMonth = bottlesOneMinute * time5;
         System.out.println("За месяц машина произвела бутылок " + bottlesMonth + " штук");
 
-
+        // Задача 5
         byte whitePaintForOneClass = 2;
         byte brownPaintForOneClass = 4;
         byte paintsForSchool = 120;
@@ -60,7 +62,7 @@ public class Main {
         int brownPaintBuy = classesSchool * brownPaintForOneClass;
         System.out.println("В школе, где " + classesSchool + " классов, нужно " + whitePaintBuy + " банок белой краски и " + brownPaintBuy + " банок коричневой краски");
 
-
+        // Задача 6
         byte bananas = 5;
         byte weightOneBanana = 80;
         int generalWeightBananas = bananas * weightOneBanana;
@@ -78,7 +80,7 @@ public class Main {
         float weightBreakfastInKilograms = generalWeightBreakfast / 1000;
         System.out.println("Общий вес спорт-завтрака " + weightBreakfastInKilograms + " килограмм");
 
-
+        // Задача 7
         short lossWeightNeedKg = 7;
         System.out.println("Спортсмену нужно сбросить " + lossWeightNeedKg + " килограмм");
         int lossWeightNeedGram = lossWeightNeedKg * oneKilogram;
@@ -94,7 +96,7 @@ public class Main {
         float lossWeightDaysAverage = lossWeightNeedGram / lossWeightPerDayAverage;
         System.out.println("В среднем спортсмену понадобится " + lossWeightDaysAverage + " дней,чтобы сбросить 7 кг");
 
-
+        // Задача 8
         int salaryMasha = 67760;
         System.out.println("Маша получала " + salaryMasha + " рублей в месяц");
         int salaryMashaGrowth = salaryMasha / 100 * 110;
